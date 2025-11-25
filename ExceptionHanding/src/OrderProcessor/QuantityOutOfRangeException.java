@@ -1,0 +1,8 @@
+package OrderProcessor;
+
+public class QuantityOutOfRangeException extends Exception{
+ 
+	public QuantityOutOfRangeException(String message) {
+		super(message);
+	}
+}
